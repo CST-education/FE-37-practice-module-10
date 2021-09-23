@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MODULE 10 practice</title>
+  </head>
+
+  <!--========= setDarkTheme ========== -->
+  <!-- <body class="dark"> -->
+  <!-- ========= setDarkTheme ==========-->
+
+  <!-- ========= 2 toggleTheme ========== -->
+  <body>
+    <!-- ========= 2 toggleTheme ========== -->
+
+    <div style="display: flex; align-items: center; justify-content: space-between;">
+      <h1>Template & localStorage</h1>
+      <label class="switch" style="display: block;">
+        <!-- ========= setDarkTheme ========== -->
+        <!-- <input id="checkboxBtn" type="checkbox" checked /> -->
+        <!-- ========= setDarkTheme ========== -->
+
+        <!-- ========= 2 toggleTheme========== -->
+        <input id="checkboxBtn" type="checkbox" />
+        <!-- ========= 2 toggleTheme ========== -->
+
+        <svg viewbox="0 0 38 24" filter="url(#goo)">
+          <circle class="default" cx="12" cy="12" r="8" />
+          <circle class="dot" cx="26" cy="12" r="8" />
+          <circle class="drop" cx="25" cy="-1" r="2" />
+        </svg>
+      </label>
+    </div>
+    <section>
+      <h2>Photo 2020</h2>
+      <ul id="photoList"></ul>
+    </section>
+    <template>
+      <li>
+        <h3>title</h3>
+        <img id="id" src="/image" alt="title" />
+        <div>
+          <p>author.name</p>
+          <span>country</span><span>city</span>
+        </div>
+        <div><span>category</span><span>seria</span></div>
+        <p>description</p>
+      </li>
+    </template>
+    <button class="custom-btn load-more is-hidden" id="loadMore">get more results</button>
+  </body>
+</html>

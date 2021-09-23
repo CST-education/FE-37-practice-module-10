@@ -1,0 +1,6 @@
+import 'regenerator-runtime/runtime.js'
+import './styles/card.css'
+// import './js/switch'
+import './styles/switch.scss'
+import './styles/styles.scss'
+import './js/getPhotos'
